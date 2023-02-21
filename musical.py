@@ -34,3 +34,6 @@ if respuesta=="Kpop":
 if respuesta=="Vocaloid":
   st.write("Yasssss")
   st.video(random.choice(choice_voc))
+if respuesta=="Reggaeton":
+  st.warning("No")
+  st.video("https://www.youtube.com/watch?v=YTTESYBd1dw")
