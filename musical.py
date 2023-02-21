@@ -2,7 +2,7 @@ import streamlit as st
 import random
 st.title("Elija su tipo de música")
 
-respuesta=st.radio("¿Género de música favorito?", opciones)
+respuesta==st.radio("¿Género de música favorito?", opciones)
 opciones=("Alt","Pop","Rock", "Reggaeton","Vocaloid","Kpop")
 
 choice_alt=["https://www.youtube.com/watch?v=dn5rSbHGsHY",
